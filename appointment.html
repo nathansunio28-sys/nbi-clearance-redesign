@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appointment - NBI Clearance</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">NBI CLEARANCE</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="login.html">Logout</a></li>
+    </ul>
+</nav>
+
+<section class="appointment">
+
+    <h1 class="section-title">Book Appointment</h1>
+
+    <div class="schedule-box">
+
+        <form action="dashboard.html">
+
+            <div class="input-group">
+                <label>Application Type</label>
+                <select required>
+                    <option>First-Time Applicant</option>
+                    <option>Renewal Applicant</option>
+                    <option>Correction of Information</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Preferred NBI Branch</label>
+                <select required>
+                    <option>NBI Main Office</option>
+                    <option>NBI Quezon City</option>
+                    <option>NBI Manila</option>
+                    <option>NBI Makati</option>
+                    <option>NBI Taguig</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Appointment Date</label>
+                <input type="date" required>
+            </div>
+
+            <div class="input-group">
+                <label>Appointment Time</label>
+                <select required>
+                    <option>8:00 AM - 10:00 AM</option>
+                    <option>10:00 AM - 12:00 PM</option>
+                    <option>1:00 PM - 3:00 PM</option>
+                    <option>3:00 PM - 5:00 PM</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Purpose</label>
+                <select required>
+                    <option>Employment</option>
+                    <option>Travel Abroad</option>
+                    <option>School Requirement</option>
+                    <option>Local Requirement</option>
+                    <option>Others</option>
+                </select>
+            </div>
+
+            <button class="submit-btn" type="submit">
+                Confirm Appointment
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 NBI Clearance Online Prototype</p>
+</footer>
+
+</body>
+</html>
